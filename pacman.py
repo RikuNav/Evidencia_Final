@@ -16,7 +16,9 @@ from random import choice
 
 # Librería turtle, que nos ayuda a manipular
 # objetos, para que lleven a cabo los movimientos
-from turtle import *
+from turtle import Turtle, bgcolor, clear, \
+     up, goto, dot, update, ontimer, setup, hideturtle, \
+     tracer, listen, onkey, done
 
 # Librería freegames, que importará floor y vector,
 # los cuales,el primero te calcula un punto, desde la izquierda
@@ -118,6 +120,7 @@ def valid(point):
 
 # Crea realmeente el mundo, y define los colores que
 # tendran los caminos y las barreras
+
 
 def world():
     """Draw world using path."""
