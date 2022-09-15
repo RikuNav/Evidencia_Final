@@ -8,7 +8,7 @@ Exercises
 4. How could you create a computer player?
 """
 
-"""" Import libraries"""
+# Import libraries
 from turtle import up
 from turtle import goto
 from turtle import down
